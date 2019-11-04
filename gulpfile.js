@@ -30,7 +30,7 @@ gulp.task('pug', function() {
       'include css': true
     }))
     .pipe(gp.autoprefixer({
-      browsers: ['last 4 versions'],
+      overrideBrowserslist: ['last 4 versions'],
       cascade: false
     }))
 
