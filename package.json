@@ -1,0 +1,39 @@
+{
+  "name": "tahograf",
+  "version": "1.0.0",
+  "description": "landing page for ostrov",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-stylus": "^2.7.0",
+    "gulp-tinypng": "^1.0.2",
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "ericsp",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericsp59/tahograf.git"
+  },
+  "keywords": [
+    "tahograf",
+    "тахограф"
+  ],
+  "bugs": {
+    "url": "https://github.com/ericsp59/tahograf/issues"
+  },
+  "homepage": "https://github.com/ericsp59/tahograf#readme"
+}
