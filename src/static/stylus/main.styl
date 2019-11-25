@@ -1,9 +1,8 @@
 @import "libs.styl"
-@import "media.styl"
 @import "fonts.styl"
 @import "colors.styl"
 @import "../other_Libs/fontawesome-free-5.11.2-web/css/all.css"
-
+@import "media.styl"
 
 body
     height: 6000px
@@ -12,8 +11,20 @@ body
     font-family: titillium
     font-size 16px
 
+    .row
+        margin 0px
+        padding: 0px
 
+    .section
+        padding: 55px 0
 
+    .dark
+        background-color waikawa-dark-gray 
+        color mercury
+
+    .light
+        background-color mercury
+        color waikawa-dark-gray       
 
 
     .header
@@ -40,7 +51,8 @@ body
                 color mercury
 
     .home
-        height: 67vh
+        min-height: 67vh
+        height 100%
         padding-top: 30px
         padding-right: 50px
         padding-left: 50px
@@ -50,7 +62,81 @@ body
             p
                 padding-left: 10px                                             
 
+
     .statistics
-        height 30vh
-        background-color waikawa-dark-gray 
-        color #e7e7e7
+        min-height 30vh
+        height 100%
+        .item
+            text-align center
+            h3
+                font-size 45px
+                font-weight: bold
+                margin 0
+                color: loblolly
+                text-shadow: mercury 0 0 3px
+            p
+                color waikawa-gray
+                text-shadow: mercury 0 0 1px    
+
+    .break-tahograf
+        min-height 100vh
+        height 100%
+        background-color mercury
+        &__item
+            text-align: center;
+            margin: 0 auto;
+            padding: 10px
+            img
+                width: 80%
+            ul
+                padding: 0px
+                margin-top: 20px           
+                margin-bottom: 40px
+                li
+                    list-style-type: none;
+            p
+                background-color waikawa-gray
+                color mercury
+                text-shadow: mercury 0 0 1px
+                font-size 20px
+                padding: 5px 0 
+                border-radius: 10px                 
+
+    .replacement-nkm
+        min-height 100vh
+        height 100%
+        &__item
+            text-align: center;
+            margin: 0 auto;
+            padding: 10px
+            img
+                width: 80%
+            ul
+                padding: 0px
+                margin-top: 20px           
+                margin-bottom: 40px
+                li
+                    list-style-type: none;
+            p
+                background-color mercury
+                color waikawa-dark-gray
+                text-shadow: mercury 0 0 1px
+                font-size 20px
+                padding: 5px 0  
+                border-radius: 10px
+                font-weight bold
+
+    .road-map    
+        .item
+            text-align: center;  
+            margin-bottom 30px
+            p
+                margin-top 20px
+                font-weight bold 
+
+    .types-of-breakdowns
+        min-height 100vh
+        height 100%
+
+    .types-of-breakdowns
+        //                                 
